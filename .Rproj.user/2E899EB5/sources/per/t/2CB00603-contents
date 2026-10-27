@@ -1,0 +1,23 @@
+# Presentación {.unnumbered}
+
+## Sobre la investigación
+
+**Duración del sueño, actividad física y fuerza muscular: un análisis econométrico en adultos de Estados Unidos, 2013–2014.**
+
+La presente investigación tiene como objetivo analizar la relación entre la duración habitual del sueño y la fuerza muscular, considerando el papel moderador de la actividad física recreativa.
+
+Para ello, se utilizan microdatos de la National Health and Nutrition Examination Survey (NHANES), correspondientes al ciclo 2013–2014 de Estados Unidos.
+
+## Pregunta de investigación
+
+¿La relación entre la duración del sueño y la fuerza de agarre difiere entre los adultos físicamente activos e inactivos?
+
+## Fuente de datos
+
+La investigación utiliza información pública del National Center for Health Statistics (NCHS), perteneciente a los Centers for Disease Control and Prevention (CDC).
+
+Los datos fueron integrados mediante el identificador individual SEQN y procesados en el software R.
+
+## Autores
+
+Jorge Reyes y Homero Contento.

@@ -1,0 +1,132 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Duración del sueño, actividad física y fuerza muscular",
+    "section": "",
+    "text": "Presentación",
+    "crumbs": [
+      "Presentación"
+    ]
+  },
+  {
+    "objectID": "index.html#sobre-la-investigación",
+    "href": "index.html#sobre-la-investigación",
+    "title": "Duración del sueño, actividad física y fuerza muscular",
+    "section": "Sobre la investigación",
+    "text": "Sobre la investigación\nDuración del sueño, actividad física y fuerza muscular: un análisis econométrico en adultos de Estados Unidos, 2013–2014.\nLa presente investigación tiene como objetivo analizar la relación entre la duración habitual del sueño y la fuerza muscular, considerando el papel moderador de la actividad física recreativa.\nPara ello, se utilizan microdatos de la National Health and Nutrition Examination Survey (NHANES), correspondientes al ciclo 2013–2014 de Estados Unidos.",
+    "crumbs": [
+      "Presentación"
+    ]
+  },
+  {
+    "objectID": "index.html#pregunta-de-investigación",
+    "href": "index.html#pregunta-de-investigación",
+    "title": "Duración del sueño, actividad física y fuerza muscular",
+    "section": "Pregunta de investigación",
+    "text": "Pregunta de investigación\n¿La relación entre la duración del sueño y la fuerza de agarre difiere entre los adultos físicamente activos e inactivos?",
+    "crumbs": [
+      "Presentación"
+    ]
+  },
+  {
+    "objectID": "index.html#fuente-de-datos",
+    "href": "index.html#fuente-de-datos",
+    "title": "Duración del sueño, actividad física y fuerza muscular",
+    "section": "Fuente de datos",
+    "text": "Fuente de datos\nLa investigación utiliza información pública del National Center for Health Statistics (NCHS), perteneciente a los Centers for Disease Control and Prevention (CDC).\nLos datos fueron integrados mediante el identificador individual SEQN y procesados en el software R.",
+    "crumbs": [
+      "Presentación"
+    ]
+  },
+  {
+    "objectID": "index.html#autores",
+    "href": "index.html#autores",
+    "title": "Duración del sueño, actividad física y fuerza muscular",
+    "section": "Autores",
+    "text": "Autores\nJorge Reyes y Homero Contento.",
+    "crumbs": [
+      "Presentación"
+    ]
+  },
+  {
+    "objectID": "intro.html",
+    "href": "intro.html",
+    "title": "1  Introduction",
+    "section": "",
+    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. «Literate Programming». Comput. J. (USA) 27 (2): 97-111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+    ]
+  },
+  {
+    "objectID": "datos_variables.html",
+    "href": "datos_variables.html",
+    "title": "2  Datos y variables",
+    "section": "",
+    "text": "2.1 Fuente de información\nLa investigación utiliza los microdatos de la National Health and Nutrition Examination Survey (NHANES), correspondientes al ciclo 2013–2014 de Estados Unidos.\nSe integraron cinco módulos de información: fuerza muscular (MGX_H), sueño (SLQ_H), actividad física (PAQ_H), medidas corporales (BMX_H) y demografía (DEMO_H).\nLas bases fueron vinculadas mediante el identificador individual SEQN.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Datos y variables</span>"
+    ]
+  },
+  {
+    "objectID": "datos_variables.html#población-de-estudio",
+    "href": "datos_variables.html#población-de-estudio",
+    "title": "2  Datos y variables",
+    "section": "2.2 Población de estudio",
+    "text": "2.2 Población de estudio\nLa población de interés comprende adultos de 20 a 39 años residentes en Estados Unidos, con información válida para las variables consideradas en el análisis.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Datos y variables</span>"
+    ]
+  },
+  {
+    "objectID": "datos_variables.html#operacionalización-de-variables",
+    "href": "datos_variables.html#operacionalización-de-variables",
+    "title": "2  Datos y variables",
+    "section": "2.3 Operacionalización de variables",
+    "text": "2.3 Operacionalización de variables\n\n\n\n\n\n\n\n\n\nVariable\nCódigo NHANES\nTipo\nMedición\n\n\n\n\nFuerza de agarre\nMGDCGSZ\nDependiente\nKilogramos\n\n\nDuración del sueño\nSLD010H\nIndependiente\nHoras por noche\n\n\nActividad física recreativa\nPAQ650, PAQ665\nModeradora\n1 = Sí; 0 = No\n\n\nEdad\nRIDAGEYR\nControl\nAños\n\n\nSexo\nRIAGENDR\nControl\n1 = Hombre; 2 = Mujer\n\n\nÍndice de masa corporal\nBMXBMI\nControl\nkg/m²\n\n\nEducación\nDMDEDUC2\nControl\nCategorías educativas\n\n\n\nFuente: Elaboración propia a partir de NHANES 2013–2014, Centers for Disease Control and Prevention (CDC).",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Datos y variables</span>"
+    ]
+  },
+  {
+    "objectID": "datos_variables.html#definición-de-las-variables-principales",
+    "href": "datos_variables.html#definición-de-las-variables-principales",
+    "title": "2  Datos y variables",
+    "section": "2.4 Definición de las variables principales",
+    "text": "2.4 Definición de las variables principales\n\n2.4.1 Fuerza muscular\nSe utiliza la fuerza de agarre combinada, expresada en kilogramos. Esta medición corresponde a la suma del mejor resultado obtenido con cada mano mediante un dinamómetro.\n\n\n2.4.2 Duración del sueño\nRepresenta las horas habituales de sueño nocturno durante los días laborables o entre semana.\n\n\n2.4.3 Actividad física\nSe construye una variable dicotómica que identifica si el individuo declara realizar actividad física recreativa moderada o vigorosa.\n\n\n2.4.4 Variables de control\nSe incorporan edad, sexo, índice de masa corporal y nivel educativo para considerar diferencias observables entre participantes.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Datos y variables</span>"
+    ]
+  },
+  {
+    "objectID": "datos_variables.html#tamaño-de-la-muestra",
+    "href": "datos_variables.html#tamaño-de-la-muestra",
+    "title": "2  Datos y variables",
+    "section": "2.5 Tamaño de la muestra",
+    "text": "2.5 Tamaño de la muestra\n\n\n\n\nTabla 2.1: Tamaño de la muestra de estudio\n\n\n\n\n\n\nDescripcion\nParticipantes\n\n\n\n\nObservaciones de la base unificada\n10175\n\n\nObservaciones elegibles para el estudio\n1785",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Datos y variables</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "3  Summary",
+    "section": "",
+    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Summary</span>"
+    ]
+  },
+  {
+    "objectID": "references.html",
+    "href": "references.html",
+    "title": "References",
+    "section": "",
+    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. (USA) 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "crumbs": [
+      "References"
+    ]
+  }
+]
