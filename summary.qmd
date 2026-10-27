@@ -1,7 +1,19 @@
-# Summary
+# Conclusiones
 
-In summary, this book has no content whatsoever.
+Este capítulo presentará los principales hallazgos de la investigación una vez finalizado el análisis estadístico y econométrico.
 
-```{r}
-1 + 1
-```
+## Principales resultados
+
+Se sintetizarán los resultados obtenidos sobre la asociación entre la duración habitual del sueño y la fuerza de agarre en adultos de 20 a 39 años de Estados Unidos.
+
+## Contraste de hipótesis
+
+Se examinará la evidencia empírica correspondiente a las hipótesis planteadas, prestando especial atención al papel moderador de la actividad física recreativa.
+
+## Implicaciones de la investigación
+
+Se discutirán las posibles implicaciones de los resultados para el estudio del sueño, la actividad física y la condición muscular.
+
+## Limitaciones y futuras investigaciones
+
+Se identificarán las principales limitaciones del análisis y se propondrán posibles líneas de investigación complementarias.

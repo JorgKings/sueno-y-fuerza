@@ -1,12 +1,13 @@
+
 # Datos y variables
 
 ## Fuente de información
 
-La investigación utiliza los microdatos de la National Health and Nutrition Examination Survey (NHANES), correspondientes al ciclo 2013–2014 de Estados Unidos.
+La investigación utiliza los microdatos de la *National Health and Nutrition Examination Survey* (NHANES), correspondientes al ciclo 2013–2014 de Estados Unidos.
 
 Se integraron cinco módulos de información: fuerza muscular (MGX_H), sueño (SLQ_H), actividad física (PAQ_H), medidas corporales (BMX_H) y demografía (DEMO_H).
 
-Las bases fueron vinculadas mediante el identificador individual SEQN.
+Las bases fueron vinculadas mediante el identificador individual `SEQN`.
 
 ## Población de estudio
 
@@ -15,8 +16,8 @@ La población de interés comprende adultos de 20 a 39 años residentes en Estad
 ## Operacionalización de variables
 
 | Variable | Código NHANES | Tipo | Medición |
-|------------------|------------------|------------------|------------------|
-| Fuerza de agarre | MGDCGSZ | Dependiente | Kilogramos |
+|---|---|---|---|
+| Fuerza de agarre combinada | MGDCGSZ | Dependiente | Kilogramos |
 | Duración del sueño | SLD010H | Independiente | Horas por noche |
 | Actividad física recreativa | PAQ650, PAQ665 | Moderadora | 1 = Sí; 0 = No |
 | Edad | RIDAGEYR | Control | Años |
@@ -28,7 +29,7 @@ La población de interés comprende adultos de 20 a 39 años residentes en Estad
 
 ## Definición de las variables principales
 
-### Fuerza muscular
+### Fuerza de agarre
 
 Se utiliza la fuerza de agarre combinada, expresada en kilogramos. Esta medición corresponde a la suma del mejor resultado obtenido con cada mano mediante un dinamómetro.
 
@@ -40,12 +41,19 @@ Representa las horas habituales de sueño nocturno durante los días laborables 
 
 Se construye una variable dicotómica que identifica si el individuo declara realizar actividad física recreativa moderada o vigorosa.
 
+Esta clasificación se refiere exclusivamente a actividades recreativas y no comprende todas las formas de actividad física que un individuo puede realizar durante sus actividades laborales o cotidianas.
+
 ### Variables de control
 
 Se incorporan edad, sexo, índice de masa corporal y nivel educativo para considerar diferencias observables entre participantes.
 
+## Preparación de la información
 
+Los archivos originales de NHANES fueron importados y procesados mediante el lenguaje de programación R.
 
+Posteriormente, se seleccionaron las variables de interés y se integraron los cinco módulos utilizando el identificador individual `SEQN`.
+
+La información procesada fue almacenada en el archivo `base_unificada.rds`, que constituye la base de trabajo para el análisis estadístico y econométrico.
 
 ## Tamaño de la muestra
 
@@ -54,7 +62,7 @@ Se incorporan edad, sexo, índice de masa corporal y nivel educativo para consid
 #| echo: false
 
 base_unificada <- readRDS(
-  "datos/procesados/base_unificada.rds"
+  "Datos/Procesados/base_unificada.rds"
 )
 
 n_total <- nrow(base_unificada)
@@ -77,4 +85,3 @@ knitr::kable(
   caption = "Tamaño de la muestra de estudio"
 )
 ```
-

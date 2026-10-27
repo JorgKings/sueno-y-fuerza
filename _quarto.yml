@@ -13,6 +13,7 @@ book:
     - index.qmd
     - intro.qmd
     - datos_variables.qmd
+    - metodologia.qmd
     - summary.qmd
     - references.qmd
   cover-image: cover.png

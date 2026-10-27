@@ -14,7 +14,7 @@
     "href": "index.html#sobre-la-investigación",
     "title": "Duración del sueño, actividad física y fuerza muscular",
     "section": "Sobre la investigación",
-    "text": "Sobre la investigación\nDuración del sueño, actividad física y fuerza muscular: un análisis econométrico en adultos de Estados Unidos, 2013–2014.\nLa presente investigación tiene como objetivo analizar la relación entre la duración habitual del sueño y la fuerza muscular, considerando el papel moderador de la actividad física recreativa.\nPara ello, se utilizan microdatos de la National Health and Nutrition Examination Survey (NHANES), correspondientes al ciclo 2013–2014 de Estados Unidos.",
+    "text": "Sobre la investigación\nDuración del sueño, actividad física y fuerza muscular: un análisis econométrico en adultos de Estados Unidos, 2013–2014.\nLa presente investigación tiene como objetivo analizar la asociación entre la duración habitual del sueño y la fuerza de agarre, considerando el posible papel moderador de la actividad física recreativa en adultos estadounidenses de 20 a 39 años.\nPara ello, se utilizan microdatos de la National Health and Nutrition Examination Survey (NHANES), correspondientes al ciclo 2013–2014 de Estados Unidos. Esta fuente proporciona información sobre hábitos de sueño, actividad física, características sociodemográficas y mediciones objetivas de fuerza muscular.\nEl estudio propone examinar si la asociación entre las horas habituales de sueño y la fuerza de agarre difiere entre individuos que realizan actividad física recreativa y aquellos que no la realizan.",
     "crumbs": [
       "Presentación"
     ]
@@ -24,17 +24,17 @@
     "href": "index.html#pregunta-de-investigación",
     "title": "Duración del sueño, actividad física y fuerza muscular",
     "section": "Pregunta de investigación",
-    "text": "Pregunta de investigación\n¿La relación entre la duración del sueño y la fuerza de agarre difiere entre los adultos físicamente activos e inactivos?",
+    "text": "Pregunta de investigación\n¿La asociación entre la duración habitual del sueño y la fuerza de agarre difiere según la práctica de actividad física recreativa en adultos de 20 a 39 años de Estados Unidos?",
     "crumbs": [
       "Presentación"
     ]
   },
   {
-    "objectID": "index.html#fuente-de-datos",
-    "href": "index.html#fuente-de-datos",
+    "objectID": "index.html#organización-de-la-investigación",
+    "href": "index.html#organización-de-la-investigación",
     "title": "Duración del sueño, actividad física y fuerza muscular",
-    "section": "Fuente de datos",
-    "text": "Fuente de datos\nLa investigación utiliza información pública del National Center for Health Statistics (NCHS), perteneciente a los Centers for Disease Control and Prevention (CDC).\nLos datos fueron integrados mediante el identificador individual SEQN y procesados en el software R.",
+    "section": "Organización de la investigación",
+    "text": "Organización de la investigación\nEl documento se estructura en capítulos que presentan el problema de investigación, sus fundamentos teóricos, los datos y las variables utilizadas, la metodología econométrica y las conclusiones derivadas del análisis.",
     "crumbs": [
       "Presentación"
     ]
@@ -52,11 +52,61 @@
   {
     "objectID": "intro.html",
     "href": "intro.html",
-    "title": "1  Introduction",
+    "title": "1  Introducción",
     "section": "",
-    "text": "This is a book created from markdown and executable code.\nSee Knuth (1984) for additional discussion of literate programming.\n\n1 + 1\n\n[1] 2\n\n\n\n\n\n\nKnuth, Donald E. 1984. «Literate Programming». Comput. J. (USA) 27 (2): 97-111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "text": "1.1 Contextualización del problema\nEl sueño y la actividad física constituyen componentes importantes de la salud y la condición física de las personas. El descanso nocturno se relaciona con procesos fisiológicos de recuperación, mientras que la práctica regular de actividad física contribuye al mantenimiento y desarrollo de la capacidad muscular.\nSin embargo, la asociación entre la duración del sueño y la fuerza muscular podría presentar diferencias según los hábitos de actividad física y las características individuales de la población.\nDesde esta perspectiva, resulta relevante examinar si la actividad física recreativa desempeña un papel moderador en la relación entre la duración habitual del sueño y la fuerza de agarre.",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introduction</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introducción</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#planteamiento-del-problema",
+    "href": "intro.html#planteamiento-del-problema",
+    "title": "1  Introducción",
+    "section": "1.2 Planteamiento del problema",
+    "text": "1.2 Planteamiento del problema\nLa literatura científica ha examinado la relación entre la duración del sueño y diferentes indicadores de salud y condición física, incluida la fuerza muscular.\nAunque existen antecedentes empíricos sobre esta asociación, resulta pertinente investigar si presenta diferencias entre individuos con distintos hábitos de actividad física recreativa, particularmente en adultos jóvenes.\nLa presente investigación propone analizar esta relación utilizando información individual de Estados Unidos correspondiente al ciclo 2013–2014 de NHANES.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introducción</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#fundamentación-teórica",
+    "href": "intro.html#fundamentación-teórica",
+    "title": "1  Introducción",
+    "section": "1.3 Fundamentación teórica",
+    "text": "1.3 Fundamentación teórica\n\n1.3.1 Enfoque restaurador del sueño\nEl enfoque restaurador del sueño plantea que el descanso constituye un período relevante para diferentes procesos fisiológicos de recuperación, crecimiento y reparación del organismo.\n(oswald1976?) examinó evidencia sobre los procesos biológicos de síntesis, crecimiento y reparación asociados al sueño. Su planteamiento proporciona un fundamento conceptual para investigar la posible relación entre el descanso nocturno y la función muscular.\n\n\n1.3.2 Sueño y rendimiento físico\nDesde una perspectiva contemporánea, (walsh2021?) revisaron la evidencia científica sobre el sueño, la recuperación y el rendimiento deportivo.\nLos autores destacan la relevancia del descanso para la salud y el rendimiento físico, aunque también identifican resultados heterogéneos y limitaciones metodológicas en la literatura disponible.\nEstos antecedentes sugieren que la relación entre sueño y capacidad muscular debe examinarse empíricamente, considerando posibles diferencias entre individuos.\n\n\n1.3.3 Evidencia empírica sobre sueño y fuerza muscular\n(liu2023?) analizaron la asociación entre la duración del sueño y la fuerza de agarre en adultos mayores estadounidenses mediante datos de NHANES 2011–2014.\nLos investigadores identificaron una asociación no lineal entre la duración del sueño y la prevalencia de baja fuerza de agarre.\nEstos resultados proporcionan un antecedente relevante. Sin embargo, el presente estudio se concentra en adultos de 20 a 39 años y considera la práctica de actividad física recreativa como una posible variable moderadora.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introducción</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#brecha-de-conocimiento-propuesta",
+    "href": "intro.html#brecha-de-conocimiento-propuesta",
+    "title": "1  Introducción",
+    "section": "1.4 Brecha de conocimiento propuesta",
+    "text": "1.4 Brecha de conocimiento propuesta\nA partir de los antecedentes identificados, se plantea como posible brecha de conocimiento la heterogeneidad de la asociación entre la duración habitual del sueño y la fuerza de agarre según la práctica de actividad física recreativa en adultos jóvenes.\nLa investigación busca establecer si dicha asociación difiere entre individuos que reportan actividad física recreativa moderada o vigorosa y aquellos que no la reportan.\nLa originalidad de esta contribución deberá confirmarse mediante una revisión más amplia de la literatura científica.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introducción</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#objetivos-de-investigación",
+    "href": "intro.html#objetivos-de-investigación",
+    "title": "1  Introducción",
+    "section": "1.5 Objetivos de investigación",
+    "text": "1.5 Objetivos de investigación\n\n1.5.1 Objetivo general\nAnalizar la asociación entre la duración habitual del sueño y la fuerza de agarre, considerando el papel moderador de la actividad física recreativa en adultos de 20 a 39 años de Estados Unidos, mediante información de NHANES 2013–2014.\n\n\n1.5.2 Objetivos específicos\n\nDescribir las características sociodemográficas, la duración habitual del sueño, la actividad física recreativa y la fuerza de agarre de la población estudiada.\nComparar los niveles de fuerza de agarre entre adultos que realizan actividad física recreativa y aquellos que no la realizan.\nEstimar la asociación entre la duración habitual del sueño y la fuerza de agarre, controlando por características individuales observables.\nDeterminar si la asociación entre la duración del sueño y la fuerza de agarre presenta diferencias estadísticamente significativas según la práctica de actividad física recreativa.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introducción</span>"
+    ]
+  },
+  {
+    "objectID": "intro.html#hipótesis-de-investigación",
+    "href": "intro.html#hipótesis-de-investigación",
+    "title": "1  Introducción",
+    "section": "1.6 Hipótesis de investigación",
+    "text": "1.6 Hipótesis de investigación\nSe plantean las siguientes hipótesis:\nH1: Existe una asociación estadísticamente significativa entre la duración habitual del sueño y la fuerza de agarre.\nH2: La fuerza de agarre presenta diferencias entre adultos que realizan actividad física recreativa y aquellos que no la realizan, después de controlar por características individuales observables.\nH3: La asociación entre la duración habitual del sueño y la fuerza de agarre difiere según la práctica de actividad física recreativa.\nLa tercera hipótesis constituye el principal interés del estudio, dado que permite evaluar si la actividad física recreativa modera estadísticamente la asociación entre sueño y fuerza de agarre.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Introducción</span>"
     ]
   },
   {
@@ -84,7 +134,7 @@
     "href": "datos_variables.html#operacionalización-de-variables",
     "title": "2  Datos y variables",
     "section": "2.3 Operacionalización de variables",
-    "text": "2.3 Operacionalización de variables\n\n\n\n\n\n\n\n\n\nVariable\nCódigo NHANES\nTipo\nMedición\n\n\n\n\nFuerza de agarre\nMGDCGSZ\nDependiente\nKilogramos\n\n\nDuración del sueño\nSLD010H\nIndependiente\nHoras por noche\n\n\nActividad física recreativa\nPAQ650, PAQ665\nModeradora\n1 = Sí; 0 = No\n\n\nEdad\nRIDAGEYR\nControl\nAños\n\n\nSexo\nRIAGENDR\nControl\n1 = Hombre; 2 = Mujer\n\n\nÍndice de masa corporal\nBMXBMI\nControl\nkg/m²\n\n\nEducación\nDMDEDUC2\nControl\nCategorías educativas\n\n\n\nFuente: Elaboración propia a partir de NHANES 2013–2014, Centers for Disease Control and Prevention (CDC).",
+    "text": "2.3 Operacionalización de variables\n\n\n\n\n\n\n\n\n\nVariable\nCódigo NHANES\nTipo\nMedición\n\n\n\n\nFuerza de agarre combinada\nMGDCGSZ\nDependiente\nKilogramos\n\n\nDuración del sueño\nSLD010H\nIndependiente\nHoras por noche\n\n\nActividad física recreativa\nPAQ650, PAQ665\nModeradora\n1 = Sí; 0 = No\n\n\nEdad\nRIDAGEYR\nControl\nAños\n\n\nSexo\nRIAGENDR\nControl\n1 = Hombre; 2 = Mujer\n\n\nÍndice de masa corporal\nBMXBMI\nControl\nkg/m²\n\n\nEducación\nDMDEDUC2\nControl\nCategorías educativas\n\n\n\nFuente: Elaboración propia a partir de NHANES 2013–2014, Centers for Disease Control and Prevention (CDC).",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Datos y variables</span>"
     ]
@@ -94,7 +144,17 @@
     "href": "datos_variables.html#definición-de-las-variables-principales",
     "title": "2  Datos y variables",
     "section": "2.4 Definición de las variables principales",
-    "text": "2.4 Definición de las variables principales\n\n2.4.1 Fuerza muscular\nSe utiliza la fuerza de agarre combinada, expresada en kilogramos. Esta medición corresponde a la suma del mejor resultado obtenido con cada mano mediante un dinamómetro.\n\n\n2.4.2 Duración del sueño\nRepresenta las horas habituales de sueño nocturno durante los días laborables o entre semana.\n\n\n2.4.3 Actividad física\nSe construye una variable dicotómica que identifica si el individuo declara realizar actividad física recreativa moderada o vigorosa.\n\n\n2.4.4 Variables de control\nSe incorporan edad, sexo, índice de masa corporal y nivel educativo para considerar diferencias observables entre participantes.",
+    "text": "2.4 Definición de las variables principales\n\n2.4.1 Fuerza de agarre\nSe utiliza la fuerza de agarre combinada, expresada en kilogramos. Esta medición corresponde a la suma del mejor resultado obtenido con cada mano mediante un dinamómetro.\n\n\n2.4.2 Duración del sueño\nRepresenta las horas habituales de sueño nocturno durante los días laborables o entre semana.\n\n\n2.4.3 Actividad física\nSe construye una variable dicotómica que identifica si el individuo declara realizar actividad física recreativa moderada o vigorosa.\nEsta clasificación se refiere exclusivamente a actividades recreativas y no comprende todas las formas de actividad física que un individuo puede realizar durante sus actividades laborales o cotidianas.\n\n\n2.4.4 Variables de control\nSe incorporan edad, sexo, índice de masa corporal y nivel educativo para considerar diferencias observables entre participantes.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Datos y variables</span>"
+    ]
+  },
+  {
+    "objectID": "datos_variables.html#preparación-de-la-información",
+    "href": "datos_variables.html#preparación-de-la-información",
+    "title": "2  Datos y variables",
+    "section": "2.5 Preparación de la información",
+    "text": "2.5 Preparación de la información\nLos archivos originales de NHANES fueron importados y procesados mediante el lenguaje de programación R.\nPosteriormente, se seleccionaron las variables de interés y se integraron los cinco módulos utilizando el identificador individual SEQN.\nLa información procesada fue almacenada en el archivo base_unificada.rds, que constituye la base de trabajo para el análisis estadístico y econométrico.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Datos y variables</span>"
     ]
@@ -103,30 +163,130 @@
     "objectID": "datos_variables.html#tamaño-de-la-muestra",
     "href": "datos_variables.html#tamaño-de-la-muestra",
     "title": "2  Datos y variables",
-    "section": "2.5 Tamaño de la muestra",
-    "text": "2.5 Tamaño de la muestra\n\n\n\n\nTabla 2.1: Tamaño de la muestra de estudio\n\n\n\n\n\n\nDescripcion\nParticipantes\n\n\n\n\nObservaciones de la base unificada\n10175\n\n\nObservaciones elegibles para el estudio\n1785",
+    "section": "2.6 Tamaño de la muestra",
+    "text": "2.6 Tamaño de la muestra\n\n\n\n\nTabla 2.1: Tamaño de la muestra de estudio\n\n\n\n\n\n\nDescripcion\nParticipantes\n\n\n\n\nObservaciones de la base unificada\n10175\n\n\nObservaciones elegibles para el estudio\n1785",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Datos y variables</span>"
     ]
   },
   {
-    "objectID": "summary.html",
-    "href": "summary.html",
-    "title": "3  Summary",
+    "objectID": "metodologia.html",
+    "href": "metodologia.html",
+    "title": "3  Metodología",
     "section": "",
-    "text": "In summary, this book has no content whatsoever.\n\n1 + 1\n\n[1] 2",
+    "text": "3.1 Enfoque y diseño de investigación\nLa investigación adopta un enfoque cuantitativo, un diseño no experimental y transversal, y un alcance correlacional.\nEl análisis se desarrolla mediante microdatos de la National Health and Nutrition Examination Survey (NHANES), correspondientes al ciclo 2013–2014 de Estados Unidos.\nEl diseño transversal permite analizar asociaciones estadísticas entre las variables de interés en un período determinado, pero no establecer relaciones causales.",
     "crumbs": [
-      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Summary</span>"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Metodología</span>"
     ]
   },
   {
-    "objectID": "references.html",
-    "href": "references.html",
-    "title": "References",
-    "section": "",
-    "text": "Knuth, Donald E. 1984. “Literate Programming.” Comput.\nJ. (USA) 27 (2): 97–111. https://doi.org/10.1093/comjnl/27.2.97.",
+    "objectID": "metodologia.html#estrategia-de-análisis",
+    "href": "metodologia.html#estrategia-de-análisis",
+    "title": "3  Metodología",
+    "section": "3.2 Estrategia de análisis",
+    "text": "3.2 Estrategia de análisis\nEl procedimiento empírico contempla tres etapas principales.\nEn primer lugar, se realizará un análisis descriptivo de la muestra, considerando la distribución de la duración del sueño, la fuerza de agarre, la actividad física recreativa y las características individuales.\nEn segundo lugar, se compararán los niveles de fuerza de agarre entre individuos que declaran realizar actividad física recreativa y aquellos que no la declaran.\nFinalmente, se estimarán modelos econométricos para evaluar la asociación entre la duración del sueño y la fuerza de agarre, considerando el posible papel moderador de la actividad física recreativa.",
     "crumbs": [
-      "References"
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Metodología</span>"
+    ]
+  },
+  {
+    "objectID": "metodologia.html#modelo-econométrico",
+    "href": "metodologia.html#modelo-econométrico",
+    "title": "3  Metodología",
+    "section": "3.3 Modelo econométrico",
+    "text": "3.3 Modelo econométrico\nSe propone utilizar un modelo de regresión lineal múltiple que incorpora un término de interacción entre la duración habitual del sueño y la actividad física recreativa.\nLa especificación inicial es:\n\\[\nF_i = \\beta_0 + \\beta_1 S_i + \\beta_2 A_i\n+ \\beta_3(S_i \\times A_i)\n+ \\boldsymbol{\\gamma}'\\mathbf{X}_i\n+ \\varepsilon_i\n\\]\nDonde:\n\n\\(F_i\\): fuerza de agarre combinada del individuo \\(i\\), medida en kilogramos.\n\\(S_i\\): duración habitual del sueño, expresada en horas.\n\\(A_i\\): indicador de actividad física recreativa, donde 1 representa participación declarada y 0 ausencia de participación declarada.\n\\(S_i \\times A_i\\): término de interacción entre sueño y actividad física recreativa.\n\\(\\mathbf{X}_i\\): vector de variables de control, compuesto por edad, sexo, índice de masa corporal y nivel educativo.\n\\(\\beta_0\\): intercepto del modelo.\n\\(\\beta_1\\): coeficiente asociado con la duración del sueño.\n\\(\\beta_2\\): coeficiente asociado con la actividad física recreativa.\n\\(\\beta_3\\): coeficiente del término de interacción.\n\\(\\boldsymbol{\\gamma}\\): vector de coeficientes de las variables de control.\n\\(\\varepsilon_i\\): término de error.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Metodología</span>"
+    ]
+  },
+  {
+    "objectID": "metodologia.html#interpretación-de-la-interacción",
+    "href": "metodologia.html#interpretación-de-la-interacción",
+    "title": "3  Metodología",
+    "section": "3.4 Interpretación de la interacción",
+    "text": "3.4 Interpretación de la interacción\nEl principal parámetro de interés es \\(\\beta_3\\), que permite examinar si la asociación entre la duración del sueño y la fuerza de agarre difiere según la práctica de actividad física recreativa.\nPara los individuos sin actividad física recreativa declarada (\\(A_i = 0\\)), la pendiente estimada respecto a las horas de sueño corresponde a:\n\\[\n\\frac{\\partial F_i}{\\partial S_i} = \\beta_1\n\\]\nPara los individuos con actividad física recreativa declarada (\\(A_i = 1\\)), la pendiente corresponde a:\n\\[\n\\frac{\\partial F_i}{\\partial S_i} = \\beta_1 + \\beta_3\n\\]\nPor tanto, la diferencia entre ambas pendientes se encuentra representada por \\(\\beta_3\\).\nLa hipótesis nula principal será:\n\\[\nH_0: \\beta_3 = 0\n\\]\nFrente a la hipótesis alternativa:\n\\[\nH_1: \\beta_3 \\neq 0\n\\]\nEl rechazo de la hipótesis nula proporcionaría evidencia estadística de que la asociación entre la duración del sueño y la fuerza de agarre difiere entre ambos grupos.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Metodología</span>"
+    ]
+  },
+  {
+    "objectID": "metodologia.html#variables-de-control",
+    "href": "metodologia.html#variables-de-control",
+    "title": "3  Metodología",
+    "section": "3.5 Variables de control",
+    "text": "3.5 Variables de control\nSe incorporan las variables edad, sexo, índice de masa corporal y educación para ajustar las estimaciones por diferencias individuales observables.\nLa inclusión de estas variables busca reducir la influencia de factores que podrían estar relacionados simultáneamente con la duración del sueño y la fuerza de agarre.\nSin embargo, su incorporación no elimina necesariamente todos los problemas de confusión o endogeneidad.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Metodología</span>"
+    ]
+  },
+  {
+    "objectID": "metodologia.html#diseño-muestral",
+    "href": "metodologia.html#diseño-muestral",
+    "title": "3  Metodología",
+    "section": "3.6 Diseño muestral",
+    "text": "3.6 Diseño muestral\nLas estimaciones considerarán el diseño muestral complejo de NHANES.\nSe utilizarán los pesos de examen, los estratos y las unidades primarias de muestreo proporcionados por la encuesta.\nEl tratamiento estadístico se realizará mediante herramientas de R apropiadas para datos de encuestas complejas, con el propósito de obtener estimaciones y errores estándar consistentes con el diseño muestral.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Metodología</span>"
+    ]
+  },
+  {
+    "objectID": "metodologia.html#análisis-de-robustez",
+    "href": "metodologia.html#análisis-de-robustez",
+    "title": "3  Metodología",
+    "section": "3.7 Análisis de robustez",
+    "text": "3.7 Análisis de robustez\nSe contempla examinar especificaciones alternativas para verificar la estabilidad de los resultados.\nEn particular, se evaluará la incorporación de un término cuadrático de duración del sueño, dado que la literatura ha documentado asociaciones no lineales entre duración del descanso y fuerza de agarre.\nTambién podrán examinarse diferencias según el sexo o grupos de edad, dependiendo del tamaño final de la muestra.\nEstas estimaciones complementarias permitirán evaluar la sensibilidad de los resultados a distintas especificaciones econométricas.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Metodología</span>"
+    ]
+  },
+  {
+    "objectID": "metodologia.html#limitaciones-metodológicas",
+    "href": "metodologia.html#limitaciones-metodológicas",
+    "title": "3  Metodología",
+    "section": "3.8 Limitaciones metodológicas",
+    "text": "3.8 Limitaciones metodológicas\nLa investigación presenta algunas limitaciones que deben considerarse al interpretar los resultados.\nEn primer lugar, la duración del sueño y la práctica de actividad física proceden de información declarada por los participantes, por lo que pueden estar sujetas a errores de medición.\nEn segundo lugar, la fuerza de agarre constituye una medida específica de fuerza muscular y no representa directamente todas las dimensiones del rendimiento físico.\nFinalmente, debido al carácter transversal y observacional de los datos, las asociaciones identificadas no podrán interpretarse como efectos causales.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Metodología</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html",
+    "href": "summary.html",
+    "title": "4  Conclusiones",
+    "section": "",
+    "text": "4.1 Principales resultados\nEste capítulo presentará los principales hallazgos de la investigación una vez finalizado el análisis estadístico y econométrico.\nSe sintetizarán los resultados obtenidos sobre la asociación entre la duración habitual del sueño y la fuerza de agarre en adultos de 20 a 39 años de Estados Unidos.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Conclusiones</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html#contraste-de-hipótesis",
+    "href": "summary.html#contraste-de-hipótesis",
+    "title": "4  Conclusiones",
+    "section": "4.2 Contraste de hipótesis",
+    "text": "4.2 Contraste de hipótesis\nSe examinará la evidencia empírica correspondiente a las hipótesis planteadas, prestando especial atención al papel moderador de la actividad física recreativa.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Conclusiones</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html#implicaciones-de-la-investigación",
+    "href": "summary.html#implicaciones-de-la-investigación",
+    "title": "4  Conclusiones",
+    "section": "4.3 Implicaciones de la investigación",
+    "text": "4.3 Implicaciones de la investigación\nSe discutirán las posibles implicaciones de los resultados para el estudio del sueño, la actividad física y la condición muscular.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Conclusiones</span>"
+    ]
+  },
+  {
+    "objectID": "summary.html#limitaciones-y-futuras-investigaciones",
+    "href": "summary.html#limitaciones-y-futuras-investigaciones",
+    "title": "4  Conclusiones",
+    "section": "4.4 Limitaciones y futuras investigaciones",
+    "text": "4.4 Limitaciones y futuras investigaciones\nSe identificarán las principales limitaciones del análisis y se propondrán posibles líneas de investigación complementarias.",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>Conclusiones</span>"
     ]
   }
 ]

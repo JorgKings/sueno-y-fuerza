@@ -1,0 +1,115 @@
+
+# Metodología
+
+## Enfoque y diseño de investigación
+
+La investigación adopta un enfoque cuantitativo, un diseño no experimental y transversal, y un alcance correlacional.
+
+El análisis se desarrolla mediante microdatos de la *National Health and Nutrition Examination Survey* (NHANES), correspondientes al ciclo 2013–2014 de Estados Unidos.
+
+El diseño transversal permite analizar asociaciones estadísticas entre las variables de interés en un período determinado, pero no establecer relaciones causales.
+
+## Estrategia de análisis
+
+El procedimiento empírico contempla tres etapas principales.
+
+En primer lugar, se realizará un análisis descriptivo de la muestra, considerando la distribución de la duración del sueño, la fuerza de agarre, la actividad física recreativa y las características individuales.
+
+En segundo lugar, se compararán los niveles de fuerza de agarre entre individuos que declaran realizar actividad física recreativa y aquellos que no la declaran.
+
+Finalmente, se estimarán modelos econométricos para evaluar la asociación entre la duración del sueño y la fuerza de agarre, considerando el posible papel moderador de la actividad física recreativa.
+
+## Modelo econométrico
+
+Se propone utilizar un modelo de regresión lineal múltiple que incorpora un término de interacción entre la duración habitual del sueño y la actividad física recreativa.
+
+La especificación inicial es:
+
+$$
+F_i = \beta_0 + \beta_1 S_i + \beta_2 A_i
++ \beta_3(S_i \times A_i)
++ \boldsymbol{\gamma}'\mathbf{X}_i
++ \varepsilon_i
+$$
+
+Donde:
+
+- $F_i$: fuerza de agarre combinada del individuo $i$, medida en kilogramos.
+- $S_i$: duración habitual del sueño, expresada en horas.
+- $A_i$: indicador de actividad física recreativa, donde 1 representa participación declarada y 0 ausencia de participación declarada.
+- $S_i \times A_i$: término de interacción entre sueño y actividad física recreativa.
+- $\mathbf{X}_i$: vector de variables de control, compuesto por edad, sexo, índice de masa corporal y nivel educativo.
+- $\beta_0$: intercepto del modelo.
+- $\beta_1$: coeficiente asociado con la duración del sueño.
+- $\beta_2$: coeficiente asociado con la actividad física recreativa.
+- $\beta_3$: coeficiente del término de interacción.
+- $\boldsymbol{\gamma}$: vector de coeficientes de las variables de control.
+- $\varepsilon_i$: término de error.
+
+## Interpretación de la interacción
+
+El principal parámetro de interés es $\beta_3$, que permite examinar si la asociación entre la duración del sueño y la fuerza de agarre difiere según la práctica de actividad física recreativa.
+
+Para los individuos sin actividad física recreativa declarada ($A_i = 0$), la pendiente estimada respecto a las horas de sueño corresponde a:
+
+$$
+\frac{\partial F_i}{\partial S_i} = \beta_1
+$$
+
+Para los individuos con actividad física recreativa declarada ($A_i = 1$), la pendiente corresponde a:
+
+$$
+\frac{\partial F_i}{\partial S_i} = \beta_1 + \beta_3
+$$
+
+Por tanto, la diferencia entre ambas pendientes se encuentra representada por $\beta_3$.
+
+La hipótesis nula principal será:
+
+$$
+H_0: \beta_3 = 0
+$$
+
+Frente a la hipótesis alternativa:
+
+$$
+H_1: \beta_3 \neq 0
+$$
+
+El rechazo de la hipótesis nula proporcionaría evidencia estadística de que la asociación entre la duración del sueño y la fuerza de agarre difiere entre ambos grupos.
+
+## Variables de control
+
+Se incorporan las variables edad, sexo, índice de masa corporal y educación para ajustar las estimaciones por diferencias individuales observables.
+
+La inclusión de estas variables busca reducir la influencia de factores que podrían estar relacionados simultáneamente con la duración del sueño y la fuerza de agarre.
+
+Sin embargo, su incorporación no elimina necesariamente todos los problemas de confusión o endogeneidad.
+
+## Diseño muestral
+
+Las estimaciones considerarán el diseño muestral complejo de NHANES.
+
+Se utilizarán los pesos de examen, los estratos y las unidades primarias de muestreo proporcionados por la encuesta.
+
+El tratamiento estadístico se realizará mediante herramientas de R apropiadas para datos de encuestas complejas, con el propósito de obtener estimaciones y errores estándar consistentes con el diseño muestral.
+
+## Análisis de robustez
+
+Se contempla examinar especificaciones alternativas para verificar la estabilidad de los resultados.
+
+En particular, se evaluará la incorporación de un término cuadrático de duración del sueño, dado que la literatura ha documentado asociaciones no lineales entre duración del descanso y fuerza de agarre.
+
+También podrán examinarse diferencias según el sexo o grupos de edad, dependiendo del tamaño final de la muestra.
+
+Estas estimaciones complementarias permitirán evaluar la sensibilidad de los resultados a distintas especificaciones econométricas.
+
+## Limitaciones metodológicas
+
+La investigación presenta algunas limitaciones que deben considerarse al interpretar los resultados.
+
+En primer lugar, la duración del sueño y la práctica de actividad física proceden de información declarada por los participantes, por lo que pueden estar sujetas a errores de medición.
+
+En segundo lugar, la fuerza de agarre constituye una medida específica de fuerza muscular y no representa directamente todas las dimensiones del rendimiento físico.
+
+Finalmente, debido al carácter transversal y observacional de los datos, las asociaciones identificadas no podrán interpretarse como efectos causales.
