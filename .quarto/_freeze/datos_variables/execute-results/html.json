@@ -1,0 +1,15 @@
+{
+  "hash": "82de8dac52da04c28cad937fed26954d",
+  "result": {
+    "engine": "knitr",
+    "markdown": "# Datos y variables\n\n## Fuente de información\n\nLa investigación utiliza los microdatos de la National Health and Nutrition Examination Survey (NHANES), correspondientes al ciclo 2013–2014 de Estados Unidos.\n\nSe integraron cinco módulos de información: fuerza muscular (MGX_H), sueño (SLQ_H), actividad física (PAQ_H), medidas corporales (BMX_H) y demografía (DEMO_H).\n\nLas bases fueron vinculadas mediante el identificador individual SEQN.\n\n## Población de estudio\n\nLa población de interés comprende adultos de 20 a 39 años residentes en Estados Unidos, con información válida para las variables consideradas en el análisis.\n\n## Operacionalización de variables\n\n| Variable | Código NHANES | Tipo | Medición |\n|------------------|------------------|------------------|------------------|\n| Fuerza de agarre | MGDCGSZ | Dependiente | Kilogramos |\n| Duración del sueño | SLD010H | Independiente | Horas por noche |\n| Actividad física recreativa | PAQ650, PAQ665 | Moderadora | 1 = Sí; 0 = No |\n| Edad | RIDAGEYR | Control | Años |\n| Sexo | RIAGENDR | Control | 1 = Hombre; 2 = Mujer |\n| Índice de masa corporal | BMXBMI | Control | kg/m² |\n| Educación | DMDEDUC2 | Control | Categorías educativas |\n\n*Fuente: Elaboración propia a partir de NHANES 2013–2014, Centers for Disease Control and Prevention (CDC).*\n\n## Definición de las variables principales\n\n### Fuerza muscular\n\nSe utiliza la fuerza de agarre combinada, expresada en kilogramos. Esta medición corresponde a la suma del mejor resultado obtenido con cada mano mediante un dinamómetro.\n\n### Duración del sueño\n\nRepresenta las horas habituales de sueño nocturno durante los días laborables o entre semana.\n\n### Actividad física\n\nSe construye una variable dicotómica que identifica si el individuo declara realizar actividad física recreativa moderada o vigorosa.\n\n### Variables de control\n\nSe incorporan edad, sexo, índice de masa corporal y nivel educativo para considerar diferencias observables entre participantes.\n\n\n\n\n## Tamaño de la muestra\n\n\n::: {#tbl-muestra .cell}\n::: {.cell-output-display}\n\n\nTable: Tamaño de la muestra de estudio\n\n|Descripcion                             | Participantes|\n|:---------------------------------------|-------------:|\n|Observaciones de la base unificada      |         10175|\n|Observaciones elegibles para el estudio |          1785|\n\n\n:::\n:::\n\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
